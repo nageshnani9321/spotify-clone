@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+/* Smooth scrolling */
+.sidebar {
+  scroll-behavior: smooth;
+}
+
+/* Custom scroll bar styles */
+.sidebar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background: #121212;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: #242424;
+  border-radius: 10px;
+}
